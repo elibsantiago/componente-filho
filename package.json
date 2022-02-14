@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/elibsantiago.componente-filho",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve 1GiKuuxzBWz6X8PQDqIB --open"
+  }
+}
