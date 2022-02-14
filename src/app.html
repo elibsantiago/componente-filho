@@ -30,6 +30,11 @@
 			<c-produto nome="Xbox" preco="10.99" estoque="sim"></c-produto>
 			<c-produto nome="PS5" preco="8000.99" estoque="sim"></c-produto>
 			<c-produto nome="Gameboy" preco="9.99" estoque="não"></c-produto>
+
+			<template for:each={data} for:item="produto">
+				<c-produto key={produto.cod} nome={produto.nome} preco={produto.preco} estoque={produto.estoque}></c-produto>
+			</template>
+
 		</div>
 	</lightning-card>
 </template>
